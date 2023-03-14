@@ -1,0 +1,150 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(3, 0, 0, 0.87); 
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg?w=1060&t=st=1678034484~exp=1678035084~hmac=cfeed832e9ce8ddf4e2b6284b58a84d0c6cd389217155c4eefc0886f81c20fe6");
+  background-size: cover;
+  
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4.2em;
+  line-height: 1.1;
+  color:#535bf2;
+  background-color: aliceblue;
+}
+
+p{
+  font-size: 2em;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 0.3em;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #0b0101;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 3em;
+  
+}
+
+.card-container{
+  background-color: rgba(127, 255, 212, 0.185);
+  display: flex;
+  justify-items: center;
+  padding: 1em;
+}
+
+
+.cardDisplay {
+  width: 30em;
+  height: 10em;
+  border: rgba(236, 246, 240, 0.87);
+  border: solid;
+  padding: 3em;   
+  cursor: pointer;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  
+}
+
+.red {
+  background:pink;
+}
+
+.yellow {
+  background: rgb(222, 222, 14);
+}
+
+.green {
+  background:rgb(43, 159, 97);
+} 
+
+#correct{
+  border-color: green;
+  border-style: double;
+  height: 2em;
+  width: 20em;
+  border-width: 2em;
+}
+
+#wrong{
+  border-color: red;
+  border-width: 2em;
+  border-style: double;
+  height: 2em;
+  width: 20em;
+}
+
+.formElement{
+  display: flex;
+  padding: 1em;
+}
+
+input{
+}
