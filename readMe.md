@@ -30,22 +30,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://github.com/mumtazf/cp_3_flashcard_form_project/blob/master/video_walkthrough.gif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Figuring out how to pass answers to the form element was difficult. As of now, I created a temporary array with keywords to validate the response but I do want to learn how to pass elements from backCard to FormElement. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Mumtaz Fatima]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
