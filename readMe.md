@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://github.com/mumtazf/cp_3_flashcard_form_project/blob/master/video_walkthrough.gif
+![Video walkthrough](https://github.com/mumtazf/cp_3_flashcard_form_project/blob/master/video_walkthrough.gif)
 
 ## Notes
 
